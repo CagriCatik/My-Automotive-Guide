@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="4m4T2ks0Ylcg3nYhwdom" name="Page-1">
+        <mxGraphModel dx="1248" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="510" width="490" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Tester" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="162" y="470" width="120" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Vehicle Announcement&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; Das Gateway übertragt 3 mal Vehicle Announcement als Broadcast via UDP&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- VIN - Vehicle ID&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- EID - Entity ID&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Logische Adresse des Gateways&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="162" y="310" width="440" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Vehicle Identification&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Der Diagnosetester kann eine Anfrage als Broadcast via UDP senden.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Das Gateway antwortet mit einer Vehicle Identification Response.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Diese ist identisch mit dem Vehicle Announcement&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="310" width="460" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="html=1;endArrow=none;endFill=0;strokeWidth=3;exitX=0.387;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="208" y="570" as="sourcePoint"/>
+                        <mxPoint x="608" y="638" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="209" y="638"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=classic;html=1;exitX=0.713;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;fillColor=#008a00;strokeColor=#005700;jumpSize=6;strokeWidth=3;" edge="1" parent="1" source="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="248" y="610" as="sourcePoint"/>
+                        <mxPoint x="608" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="248" y="600"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Vehicle Identification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="348" y="570" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=none;html=1;endFill=0;fillColor=#008a00;strokeColor=#005700;jumpSize=6;strokeWidth=3;startArrow=classic;startFill=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="228" y="570" as="sourcePoint"/>
+                        <mxPoint x="598" y="618.8" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="228" y="618.8"/>
+                            <mxPoint x="408" y="618.8"/>
+                            <mxPoint x="498" y="618.8"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="html=1;exitX=0.226;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;strokeWidth=3;startArrow=classic;startFill=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="2">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="188.65999999999997" y="570" as="sourcePoint"/>
+                        <mxPoint x="608" y="660" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="189" y="660"/>
+                            <mxPoint x="388" y="660"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

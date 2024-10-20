@@ -1,0 +1,8 @@
+# Ignore PDF files
+*.pdf
+
+# Ignore folders containing PDFs
+*/pdfs/
+
+# mdBook
+book

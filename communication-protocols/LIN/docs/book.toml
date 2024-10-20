@@ -1,0 +1,9 @@
+[book]
+authors = ["Çağrı"]
+language = "en"
+multilingual = true
+src = "src"
+title = "Local Interconnect Network"
+
+[build]
+build-dir = "book"

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMEA Table with Rating Chart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="table-container">
+        <h1>FMEA Table</h1>
+        <table id="fmea-table">
+            <!-- Previous FMEA Table HTML here -->
+        </table>
+    </div>
+
+    <div class="rating-chart-container">
+        <h1>Rating Chart</h1>
+        <table id="rating-chart">
+            <thead>
+                <tr>
+                    <th>Rating</th>
+                    <th>Degree of Severity</th>
+                    <th>Probability of Occurrence</th>
+                    <th>Ability to Detect</th>
+                    <th>Detection Certainty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Customer will not notice the adverse effect or it is insignificant</td>
+                    <td>Likelihood of occurrence is remote (1 in 1,000,000)</td>
+                    <td>Sure that the potential failure will be found or prevented before reaching the next customer</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Customer will probably experience slight annoyance</td>
+                    <td>Low failure rate with supporting documentation (1 in 20,000)</td>
+                    <td>Almost certain that the potential failure will be found or prevented before reaching the next customer</td>
+                    <td>99%</td>
+                </tr>
+                <!-- Continue adding rows for ratings 3-10 similar to the example -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
