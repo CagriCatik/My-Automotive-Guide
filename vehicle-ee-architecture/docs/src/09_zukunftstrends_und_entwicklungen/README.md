@@ -1,0 +1,1 @@
+# Zukunftstrends und Entwicklungen

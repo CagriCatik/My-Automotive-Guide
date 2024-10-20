@@ -1,0 +1,2 @@
+# Example code for 09_Insecure_Design_Overview_CWEs_Shift_Left_Security_Threat_Modeling_Manifesto
+

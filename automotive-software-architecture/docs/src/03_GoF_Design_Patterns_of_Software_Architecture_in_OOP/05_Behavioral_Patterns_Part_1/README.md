@@ -1,0 +1,3 @@
+# 05_Behavioral_Patterns_Part_1
+
+Description of 05_Behavioral_Patterns_Part_1.

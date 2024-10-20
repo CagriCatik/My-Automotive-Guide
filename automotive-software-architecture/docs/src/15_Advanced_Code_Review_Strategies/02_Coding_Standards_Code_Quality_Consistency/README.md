@@ -1,0 +1,3 @@
+# 02_Coding_Standards_Code_Quality_Consistency
+
+Description of 02_Coding_Standards_Code_Quality_Consistency.

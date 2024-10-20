@@ -1,0 +1,3 @@
+# 06_Behavioral_Patterns_Part_2
+
+Description of 06_Behavioral_Patterns_Part_2.

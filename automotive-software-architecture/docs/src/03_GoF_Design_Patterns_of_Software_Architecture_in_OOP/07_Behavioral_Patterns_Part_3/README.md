@@ -1,0 +1,3 @@
+# 07_Behavioral_Patterns_Part_3
+
+Description of 07_Behavioral_Patterns_Part_3.

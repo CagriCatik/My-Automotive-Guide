@@ -1,0 +1,3 @@
+# 05_Interface_Segregation_Principle
+
+Description of 05_Interface_Segregation_Principle.

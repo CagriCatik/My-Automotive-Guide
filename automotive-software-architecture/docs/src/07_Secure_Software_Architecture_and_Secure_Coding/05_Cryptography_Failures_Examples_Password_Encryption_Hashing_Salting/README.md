@@ -1,0 +1,3 @@
+# 05_Cryptography_Failures_Examples_Password_Encryption_Hashing_Salting
+
+Description of 05_Cryptography_Failures_Examples_Password_Encryption_Hashing_Salting.

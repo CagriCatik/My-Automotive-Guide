@@ -1,0 +1,3 @@
+# 03_Structural_Patterns_Part_1
+
+Description of 03_Structural_Patterns_Part_1.

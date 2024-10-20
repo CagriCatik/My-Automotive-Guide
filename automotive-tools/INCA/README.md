@@ -1,4 +1,4 @@
-# INCA in der Automobilindustrie
+# INCA
 
 Das INCA-Tool von ETAS ist ein unverzichtbares Werkzeug für die Datenerfassung, Kalibrierung und Diagnose von Steuergeräten (ECUs) in der Automobilindustrie. Dieses Tutorial bietet eine detaillierte Einführung in die grundlegenden und erweiterten Funktionen von INCA und richtet sich an Experten im Bereich der Fahrzeugapplikation und -kalibrierung.
 

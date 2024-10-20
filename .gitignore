@@ -3,6 +3,17 @@
 
 # Ignore folders containing PDFs
 */pdfs/
+*.pdf
 
 # mdBook
 book
+
+# Ignore all mp4 files
+*.mp4
+
+# Ignore the "recording" folder in any directory
+recording/
+
+# Ignore training files and folders
+*.zip
+*/training/

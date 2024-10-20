@@ -2,17 +2,25 @@
 
 [AUTOSAR - Grundlagen](./README.md)
 
-- [Übersicht und Ziele](./01_Overview/README.md)
-  - [Stand der Technik](./01_Overview/01_release-history.md)
+- [AUTOSAR - Overview](./01_Overview/README.md)
+  - [Release History](./01_Overview/01_release-history.md)
   - [Today](./01_Overview/02_today.md)
   - [Before AUTOSAR](./01_Overview/03_before-autosar.md)
   - [Objectives](./01_Overview/04_objectives.md)
-- [AUTOSAR Anwendung](./02_Application/README.md)
-  - [Übersicht der Software-Schichten](./02_Application/01_sw-layer.md)
-  - [Beispiel: Komponentensicht für Beleuchtung](./02_Application/02_example.md)
+  - [Reusability](./01_Overview/05_reusability.md)
+  - [Objectives (Part 2)](./01_Overview/06_objectives-2.md)
+  - [Slogan](./01_Overview/07_slogan.md)
+
+- [Overview of Software Layers](./02_Application/README.md)
+  - [Top view](./02_Application/01_sw-layer.md)
+  - [Coarse view](./02_Application/02_example.md)
+  - [Detailed view](./02_Application/02_example.md)
+    - [Microcontroller Abstraction Layer](./02_SW-Layers/01_Microcontroller/README.md)
+
 - [AUTOSAR RTE](./03_RTE/README.md)
   - [Rolle der RTE](./03_RTE/01_role-rte.md)
   - [Architektur](./03_RTE/02_architecture.md)
+
 - [AUTOSAR BSW](./04_BSW/README.md)
   - [Service-Schicht]()
   - [ECU-Abstraktionsschicht]()
@@ -28,6 +36,7 @@
   - [Speicherdienst]()
   - [Diagnose]()
   - [Hardware-I/O]()
+
 - [AUTOSAR Methodologie](./05_Method/README.md)
   - [Workflow]()
   - [Systembeschreibung]()
@@ -41,6 +50,7 @@
   - [ECU-Konfiguration]()
   - [Ausführbare ECU]()
   - [Prozess zur Komponentenentwicklung]()
+
 - [AUTOSAR in der Praxis](./07_Praxis/README.md)
   - [Austauschformate]()
   - [Toolkette]()

@@ -1,0 +1,3 @@
+# 04_Liskov_Substitution_Principle
+
+Description of 04_Liskov_Substitution_Principle.

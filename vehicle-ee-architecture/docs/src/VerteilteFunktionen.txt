@@ -1,0 +1,32 @@
+Begriffe
+Datenbusvernetzung (Topologie)
+Gibt Ihnen einen Überblick, wie im Fahrzeug
+befindliche Steuergeräte untereinander über
+Datenbussysteme verbunden sind.
+So ist erkennbar, über welche Bussysteme
+die Steuergeräte Daten miteinander austauschen
+können.
+Verteilte Funktionen
+Der Begriff bedeutet, dass zur Ausführung
+einer Funktion mehrere Steuergeräte Informationen
+austauschen müssen, um eine
+Funktion zu realisieren.
+
+Funktionsmaster
+Bei den verteilten Funktionen ist immer ein
+Steuergerät für den gesamten Funktionsablauf
+verantwortlich. Das Funktionsmaster-
+Steuergerät sammelt sämtliche Eingangsinformationen.
+Die daraus entstandenen
+Anforderungen werden anschließend auf
+dem Datenbussystem als Botschaft gesendet
+und von den beteiligten Steuergeräten eingelesen,
+die dann ihre angeschlossenen
+Verbraucher entsprechend ansteuern.
+Ersatzmaster
+Fällt bei wichtigen Funktionen das Funktionsmaster-
+Steuergerät aus, so ist für diesen Fall
+ein Steuergerät vorgesehen, das die Aufgaben
+des Funktionsmasters übernimmt. Es hat
+dann die Aufgabe, den Funktionsablauf ggf.
+mit Einschränkungen sicherzustellen.

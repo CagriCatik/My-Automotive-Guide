@@ -1,0 +1,3 @@
+# 12_Security_Misconfiguration_Hardening_Zero_Trust_Defense_in_Depth_Practice
+
+Description of 12_Security_Misconfiguration_Hardening_Zero_Trust_Defense_in_Depth_Practice.

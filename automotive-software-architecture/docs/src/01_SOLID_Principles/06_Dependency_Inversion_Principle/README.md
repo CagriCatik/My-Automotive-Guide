@@ -1,0 +1,3 @@
+# 06_Dependency_Inversion_Principle
+
+Description of 06_Dependency_Inversion_Principle.

@@ -1,0 +1,3 @@
+# 06_Create_Schema_Table_Naming_Collation_Engines_Types_Column_Properties
+
+Description of 06_Create_Schema_Table_Naming_Collation_Engines_Types_Column_Properties.

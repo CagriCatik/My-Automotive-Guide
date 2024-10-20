@@ -1,0 +1,2 @@
+# Example code for 03_Cryptography_Failures_Theory_Sensitive_Data_Data_Breach_Types_of_Failures
+

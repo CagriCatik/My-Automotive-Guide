@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.25">
+    <title>Vehicle EE Architectures</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div id="left-sidebar">
+        <div id="left-sidebar-content">
+            <h2>Vehicle Architectures</h2>
+            <ul>
+                <li><button onclick="loadArchitecture('./architectures/architecture1')">Distributed Architecture</button></li>
+                <li><button onclick="loadArchitecture('./architectures/architecture2')">Centralized Architecture</button></li>
+                <li><button onclick="loadArchitecture('./architectures/architecture3')">Zone Architecture</button></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <!-- Dynamic content will be loaded here -->
+    </div>
+    <div id="sidebar">
+        <div id="sidebar-content">
+            <h2 id="ecu-name"></h2>
+            <p><strong>Function:</strong> <span id="ecu-function"></span></p>
+            <p><strong>Location:</strong> <span id="ecu-location"></span></p>
+            <p><strong>Status:</strong> <span id="ecu-status"></span></p>
+        </div>
+        <button id="close-sidebar">Close</button>
+    </div>
+    <svg id="connections"></svg>
+    
+    <footer>
+        <div class="legend">
+            <span class="legend-item"><span class="legend-color can"></span> CAN</span>
+            <span class="legend-item"><span class="legend-color can"></span> FlexRay</span>
+            <span class="legend-item"><span class="legend-color lin"></span> LIN</span>
+            <span class="legend-item"><span class="legend-color eth"></span> Ethernet</span>
+        </div>
+    </footer>
+    <!-- Include the module script files -->
+    <script type="module" src="./js/positionECUs.js"></script>
+    <script type="module" src="./js/connectECUs.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

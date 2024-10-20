@@ -1,0 +1,1 @@
+# Statische vs. dynamische Architektur

@@ -1,0 +1,3 @@
+# 04_Structural_Patterns_Part_2
+
+Description of 04_Structural_Patterns_Part_2.

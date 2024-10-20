@@ -1,0 +1,3 @@
+# 11_Security_Misconfiguration_Overview_CWEs_Types_Real_life_Attacks
+
+Description of 11_Security_Misconfiguration_Overview_CWEs_Types_Real_life_Attacks.
