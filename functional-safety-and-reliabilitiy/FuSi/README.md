@@ -5,7 +5,7 @@ ISO 26262 ist ein entscheidendes Rahmenwerk, das die funktionale Sicherheit in d
 Funktionale Sicherheit muss sowohl technisch als auch organisatorisch verstanden werden. Schlüsselkonzepte umfassen organisatorische funktionale Sicherheit, funktionales Sicherheitsmanagement und Bestätigungsmaßnahmen, die alle zu einer robusten Sicherheitsarchitektur innerhalb des automobilen Ökosystems beitragen.
 
 <div style="text-align: center;">
-  <img src="./mdBook/img/cover_new.webp" style="max-width: 50%; height: auto;" />
+  <img src="./docs/img/cover_new.webp" style="max-width: 50%; height: auto;" />
 </div>
 
 

@@ -1,0 +1,1 @@
+# Komponenten eines SUMS

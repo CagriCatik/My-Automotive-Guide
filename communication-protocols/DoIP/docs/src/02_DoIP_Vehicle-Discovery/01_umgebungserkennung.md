@@ -1,22 +1,24 @@
-# DoIP-Fahrzeugerkennung
+### Umfassendes Tutorial zur DoIP-Fahrzeugerkennung
+
+#### Notwendigkeit der Umgebungserkennung
 
 Die Umgebungserkennung spielt eine zentrale Rolle im DoIP-Prozess. Sie ermöglicht es dem Tester, mehrere Diagnosesitzungen gleichzeitig durchzuführen, was die Effizienz und Geschwindigkeit des Diagnoseprozesses erheblich erhöht. Jedes Fahrzeug im Netzwerk muss dabei eindeutig identifiziert werden, um Verwechslungen zu vermeiden und genaue Diagnosedaten zu gewährleisten.
 
-## Verbindungmanagement
+#### Verbindungmanagement
 
 Das Verbindungsmanagement im Rahmen der DoIP-Technologie umfasst mehrere wichtige Aspekte:
 
 1. **Parallele Diagnosesitzungen:** Der Tester kann mehrere Fahrzeuge gleichzeitig diagnostizieren. Dies erfordert eine präzise Umgebungserkennung, um sicherzustellen, dass die Diagnosedaten korrekt zugeordnet werden.
 2. **Eindeutige Identifikation:** Jedes Fahrzeug muss im Netzwerk eindeutig identifizierbar sein. Dies wird durch die Verwendung spezifischer Identifikationsnummern gewährleistet.
 
-## Eindeutige Fahrzeuginformationen
+#### Eindeutige Fahrzeuginformationen
 
 Zur eindeutigen Identifikation eines Fahrzeugs werden in der Regel zwei Hauptinformationen verwendet:
 
 1. **FIN (Fahrzeug-Identifikationsnummer):** Dies entspricht der englischen VIN (Vehicle Identification Number) und ist eine einzigartige Seriennummer, die jedem Fahrzeug zugeordnet ist. Sie ermöglicht die genaue Identifikation des Fahrzeugs, ähnlich wie ein Fingerabdruck bei Menschen.
 2. **EID (Entity Identification):** Dies ist meist die MAC-Adresse des Steuergeräts. Die MAC-Adresse (Media Access Control) ist eine eindeutige Kennung, die jedem Netzwerkgerät zugewiesen wird und eine zuverlässige Identifikation im Ethernet-Netzwerk ermöglicht.
 
-## Praktische Umsetzung
+#### Praktische Umsetzung
 
 Für die praktische Umsetzung der DoIP-Fahrzeugerkennung sind folgende Schritte erforderlich:
 

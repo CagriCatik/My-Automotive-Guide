@@ -1,0 +1,1 @@
+# Beispielkonfigurationen und Code-Snippets

@@ -1,9 +1,12 @@
-# Rolle des Diagnosetesters im Fahrzeug
+## Einführung in die Rolle des Diagnosetesters im Fahrzeug
+
+### Beschreibung der Rolle
 
 Der Diagnosetester ist ein wesentlicher Bestandteil der Fahrzeugdiagnose und -wartung. Er dient der Überwachung, Fehlersuche und Kalibrierung der Steuergeräte (ECUs) im Fahrzeug. Hierbei ist es von entscheidender Bedeutung, dass der Diagnosetester über eine Vielzahl von Informationen und Funktionen verfügt, um effektiv zu arbeiten.
 
-## Beschreibungsdateien
+### Beschreibungsdateien
 
+#### CDD, ODX, etc.
 
 Eine zentrale Anforderung für den Einsatz eines Diagnosetesters ist die Verfügbarkeit von Beschreibungsdateien. Diese Dateien enthalten wesentliche Informationen über die Steuergeräte im Fahrzeug und deren Kommunikationsprotokolle. Zu den gängigen Formaten gehören:
 
@@ -12,11 +15,11 @@ Eine zentrale Anforderung für den Einsatz eines Diagnosetesters ist die Verfüg
 
 Der Diagnosetester benötigt für jedes Steuergerät eine entsprechende Beschreibungsdatei, um die korrekten Diagnosefunktionen durchführen zu können.
 
-## Logische Adresse
+### Logische Adresse
 
 Jedes Steuergerät und der Diagnosetester benötigen eine eindeutige logische Adresse, um im Netzwerk kommunizieren zu können. Diese logische Adresse ermöglicht es dem Tester, gezielt mit einem bestimmten Steuergerät zu interagieren, ohne dass es zu Verwechslungen kommt.
 
-## Kommunikation über UDP/IP oder TCP/IP
+### Kommunikation über UDP/IP oder TCP/IP
 
 Die Kommunikation zwischen dem Diagnosetester und den Steuergeräten erfolgt üblicherweise über Netzwerke wie Ethernet, die auf den Protokollen UDP/IP oder TCP/IP basieren. Hierbei sind insbesondere zwei Schichten relevant:
 

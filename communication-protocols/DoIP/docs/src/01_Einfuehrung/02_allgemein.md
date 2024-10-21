@@ -1,7 +1,10 @@
-# Allgemeine Konzepte von DoIP
+### Einführung in die Allgemeine Konzepte von DoIP
+
+#### Übersicht
 
 Die Diagnose über Internet Protokoll (DoIP) ermöglicht eine räumlich ungebundene Fahrzeugdiagnose, indem sie eine Verbindung zwischen Diagnosetools und Fahrzeugen über Ethernet und IP-Netzwerke herstellt. In diesem Tutorial werden wir die allgemeinen Konzepte und die Funktionsweise von DoIP erläutern, basierend auf den dargestellten Informationen.
 
+#### Allgemeine Konzepte von DoIP
 
 1. **Räumlich ungebundene Diagnose-Sitzungen:**
 
@@ -13,7 +16,7 @@ Die Diagnose über Internet Protokoll (DoIP) ermöglicht eine räumlich ungebund
 
    - DoIP beschreibt den Kommunikationsweg vom Diagnosetester zum Fahrzeug. Diese Kommunikation erfolgt über das Ethernet-Netzwerk, welches die Daten zwischen dem Diagnosetool und den Fahrzeugsteuergeräten transportiert.
 
-## Technische Umsetzung
+#### Technische Umsetzung
 
 Die technische Umsetzung von DoIP basiert auf mehreren Schichten und Protokollen, die zusammenarbeiten, um eine zuverlässige und effiziente Datenübertragung zu gewährleisten:
 
@@ -33,7 +36,7 @@ Die technische Umsetzung von DoIP basiert auf mehreren Schichten und Protokollen
 
    - Diese Schicht beinhaltet die spezifischen Anwendungen für die Fahrzeugdiagnose und das Flashen von Steuergeräten. Hier werden die Diagnoseinformationen und Steuerbefehle verarbeitet und über die unteren Schichten transportiert.
 
-## Anwendungen und Vorteile
+#### Anwendungen und Vorteile
 
 Die Implementierung von DoIP bietet zahlreiche Vorteile für die Fahrzeugdiagnose und -wartung:
 
@@ -41,6 +44,6 @@ Die Implementierung von DoIP bietet zahlreiche Vorteile für die Fahrzeugdiagnos
 - **Effizienzsteigerung:** Durch die Nutzung bestehender IP-Netzwerke können Diagnose- und Flash-Vorgänge schneller und zuverlässiger durchgeführt werden.
 - **Skalierbarkeit:** Die DoIP-Infrastruktur kann leicht erweitert werden, um zusätzliche Fahrzeuge oder Diagnosetools zu integrieren, ohne dass umfangreiche Hardwareänderungen erforderlich sind.
 
-## Fazit
+### Fazit
 
 DoIP revolutioniert die Fahrzeugdiagnose durch die Nutzung moderner IP-Netzwerktechnologien. Diese Methodik bietet nicht nur Flexibilität und Effizienz, sondern auch eine zukunftssichere Plattform für die kontinuierliche Weiterentwicklung der Fahrzeugdiagnosetechnologien. Durch das Verständnis der allgemeinen Konzepte und technischen Details von DoIP können Techniker und Ingenieure die Vorteile dieser Technologie voll ausschöpfen und eine optimierte Fahrzeugwartung und -diagnose gewährleisten.
