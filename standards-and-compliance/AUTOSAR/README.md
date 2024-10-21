@@ -74,3 +74,23 @@ To build and view this mdBook locally, follow these steps:
    ```
 
    Open your browser and navigate to `http://localhost:3000` to view the book.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add Your Feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
+
+Please ensure your contributions follow the project’s guidelines and are well-documented.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+*Happy Learning!*

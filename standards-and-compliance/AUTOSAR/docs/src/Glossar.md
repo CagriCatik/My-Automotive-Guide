@@ -1,173 +1,149 @@
-# Glossary
+# Glossar
 
 ## A
 
 ### API
 
-API (Application Programming Interface) is an interface that allows software applications to communicate and exchange data by providing a defined set of rules and protocols.
+API (Application Programming Interface) ist eine Schnittstelle, die es ermöglicht, dass Softwareanwendungen miteinander kommunizieren und Daten austauschen, indem sie eine definierte Reihe von Regeln und Protokollen bereitstellt.
 
 ### ASAM MCD
 
-The Association for Standardization of Automation and Measuring Systems (ASAM) is an organization that develops and promotes standards for measurement, calibration, and diagnostic systems (MCD) in the automotive industry.
+Die Association for Standardization of Automation and Measuring Systems (ASAM) ist eine Organisation, die Standards für die Mess-, Kalibrierungs- und Diagnosesysteme (MCD) in der Automobilindustrie entwickelt und fördert.
 
 ### AUTOSAR
 
-AUTOSAR (Automotive Open System Architecture) is an open and standardized software architecture for electronic control units (ECUs) in the automotive industry, enabling interoperability, reusability, and modularity of software components.
+AUTOSAR (Automotive Open System Architecture) ist eine offene und standardisierte Softwarearchitektur für Steuergeräte in der Automobilindustrie, die die Interoperabilität, Wiederverwendbarkeit und Modularität von Softwarekomponenten ermöglicht.
 
 ## B
 
 ### BSW
 
-Basic Software (BSW) in AUTOSAR comprises fundamental software modules required for the operation of ECU hardware, such as drivers, communication, and memory management modules.
+Die Basic Software (BSW) in AUTOSAR umfasst grundlegende Softwaremodule, die für den Betrieb der ECU-Hardware erforderlich sind, wie z.B. Treiber, Kommunikations- und Speicherverwaltungsmodule.
 
 ### Bus
 
-A bus is a communication system that facilitates data transmission between different electronic control units (ECUs). Examples include CAN, FlexRay, LIN, Ethernet, and TTCAN.
+Ein Bus ist ein Kommunikationssystem, das die Übertragung von Daten zwischen verschiedenen elektronischen Steuergeräten (ECUs) ermöglicht. Beispiele sind CAN, FlexRay, LIN, Ethernet und TTCAN.
 
 ## C
 
 ### CAL
 
-The Communication Abstraction Layer (CAL) abstracts the communication mechanisms of underlying bus systems and provides standardized interfaces to facilitate the integration of different communication protocols.
+Die Communication Abstraction Layer (CAL) abstrahiert die Kommunikationsmechanismen der zugrunde liegenden Bussysteme und stellt standardisierte Schnittstellen zur Verfügung, um die Integration verschiedener Kommunikationsprotokolle zu erleichtern.
 
 ### CAN
 
-Controller Area Network (CAN) is a robust vehicle bus system that allows communication between microcontrollers and devices without a host computer.
+Controller Area Network (CAN) ist ein robustes Fahrzeugbussystem, das die Kommunikation zwischen Mikrocontrollern und Geräten ohne Host-Computer ermöglicht.
 
 ### CCP
 
-The CAN Calibration Protocol (CCP) is a protocol for calibrating and diagnosing ECUs over the CAN bus system.
+Das CAN Calibration Protocol (CCP) ist ein Protokoll zur Kalibrierung und Diagnose von Steuergeräten über das CAN-Bus-System.
 
 ### COM
 
-The Communication Layer (COM) is responsible for managing and processing communication services and interfaces in AUTOSAR.
+Die Communication Layer (COM) ist für die Verwaltung und Verarbeitung von Kommunikationsdiensten und -schnittstellen in AUTOSAR verantwortlich.
 
 ### ComM
 
-The Communication Manager (ComM) coordinates the communication activities of various ECUs in a vehicle, ensuring that communication requirements are met.
+Der Communication Manager (ComM) koordiniert die Kommunikationsaktivitäten der verschiedenen Steuergeräte in einem Fahrzeug und stellt sicher, dass die Kommunikationsanforderungen erfüllt werden.
 
 ### CPU
 
-The Central Processing Unit (CPU) is the core of a computer or microcontroller that processes data and executes instructions.
+Die Central Processing Unit (CPU) ist das zentrale Rechenwerk eines Computers oder Mikrocontrollers, das die Verarbeitung von Daten und die Ausführung von Programmen steuert.
 
 ## D
-
-### DCM
-
-The Diagnostic Communication Manager (DCM) is a module in AUTOSAR responsible for handling diagnostic communication between external testers and the vehicle's ECUs, including fault detection and service requests.
 
 ## E
 
 ### ECU
 
-An Electronic Control Unit (ECU) is an embedded system in the automotive industry that controls various electronic functions in a vehicle.
+Ein Electronic Control Unit (ECU) ist ein eingebettetes System in der Automobilindustrie, das verschiedene elektronische Funktionen im Fahrzeug steuert.
 
 ### EcuM
 
-The ECU Manager (EcuM) in AUTOSAR manages the basic operating modes and initialization of ECUs in the vehicle.
-
-### EEPROM
-
-Electrically Erasable Programmable Read-Only Memory (EEPROM) is a type of non-volatile memory used to store small amounts of data that must be saved even when power is removed, such as configuration settings.
+Der ECU Manager (EcuM) in AUTOSAR verwaltet die grundlegenden Betriebsmodi und die Initialisierung der Steuergeräte im Fahrzeug.
 
 ## H
 
 ### HAL
 
-The Hardware Abstraction Layer (HAL) abstracts the hardware functions of the microcontroller and provides standardized interfaces to facilitate software portability.
+Die Hardware Abstraction Layer (HAL) abstrahiert die Hardwarefunktionen des Mikrocontrollers und stellt standardisierte Schnittstellen zur Verfügung, um die Portabilität von Software zu erleichtern.
 
 ### HIS
 
-The Manufacturer Initiative Software (HIS) is an initiative by automotive manufacturers to develop common standards and methods for software development.
+Die HerstellerInitiative Software (HIS) ist eine Initiative der Automobilhersteller zur Entwicklung gemeinsamer Standards und Methoden für die Softwareentwicklung.
 
 ## I
 
 ### I-PDU
 
-The Interaction Layer Protocol Data Unit (I-PDU) is a data unit used in communication between different software components, encapsulating the information exchanged between ECUs.
+Die Interaction Layer Protocol Data Unit (I-PDU) ist eine Dateneinheit, die in der Kommunikation zwischen verschiedenen Softwarekomponenten verwendet wird.
 
 ## M
 
 ### MCAL
 
-The Microcontroller Abstraction Layer (MCAL) in AUTOSAR represents an essential software component that abstracts the specific hardware functions of the microcontroller, defines standardized driver interfaces, and allows configuration and initialization of hardware peripherals during system startup. This facilitates portability, reusability, and development of scalable and modular vehicle control systems.
-
-### MCD
-
-Measurement, Calibration, and Diagnostics (MCD) is a set of functions and tools in the automotive industry used to calibrate and diagnose electronic control units (ECUs).
+Die Microcontroller Abstraction Layer (MCAL) in AUTOSAR stellt eine essenzielle Softwarekomponente dar, die die spezifischen Hardwarefunktionen des Mikrocontrollers abstrahiert, standardisierte Treiberschnittstellen definiert, um eine einheitliche Schnittstelle für Softwarekomponenten unabhängig von der zugrunde liegenden Hardware zu bieten, und ermöglicht die Konfiguration sowie Initialisierung der Hardwareperipheriegeräte während des Systemstarts, wodurch sie die Portabilität, Wiederverwendbarkeit und Entwicklung skalierbarer und modularer Fahrzeugsteuerungssysteme erleichtert.
 
 ## N
 
 ### NM
 
-Network Management (NM) is responsible for managing and monitoring network traffic and communication connections within a vehicle, ensuring that ECUs can join and leave the network without disrupting ongoing communication.
+Das Network Management (NM) ist für die Verwaltung und Überwachung des Netzwerkverkehrs und der Kommunikationsverbindungen in einem Fahrzeug verantwortlich.
 
 ## O
 
 ### OEM
 
-The Original Equipment Manufacturer (OEM) is a company that produces parts and devices used by other companies in their products. In the automotive context, an OEM is often the vehicle manufacturer itself.
+Der Original Equipment Manufacturer (OEM) ist ein Unternehmen, das Teile und Geräte herstellt, die von anderen Unternehmen in deren Produkte eingebaut werden.
 
 ### OS
 
-The Operating System (OS) is the basic software that manages the resources of a computer or microcontroller and enables the execution of application software.
+Das Operating System (OS) ist die grundlegende Software, die die Ressourcen eines Computers oder Mikrocontrollers verwaltet und die Ausführung von Anwendungssoftware ermöglicht.
 
 ## P
 
 ### PDU Router
 
-The Protocol Data Unit Router (PDU Router) is an AUTOSAR module responsible for routing communication data between different bus systems and software modules, ensuring data reaches its intended destination.
-
-### PNC
-
-Partial Network Cluster (PNC) is a logical grouping of Electronic Control Units (ECUs) within a vehicle network that can be independently activated or deactivated based on functional requirements, enabling optimized power consumption and improved energy efficiency.
+Der Protocol Data Unit Router (PDU Router) ist ein AUTOSAR-Modul, das für die Weiterleitung von Kommunikationsdaten zwischen verschiedenen Bussystemen und Softwaremodulen verantwortlich ist.
 
 ## R
 
 ### RTE
 
-The Run-Time Environment (RTE) in AUTOSAR acts as a crucial execution and communication layer, enabling the interaction of different software components in a distributed control system within a vehicle by coordinating data exchange, runtime environment, interface management, and error handling, thereby providing a robust and flexible execution environment.
+Die RTE (Run-Time Environment) bei AUTOSAR fungiert als entscheidende Ausführungs- und Kommunikationsschicht, welche die Interaktion verschiedener Softwarekomponenten in einem verteilten Steuerungssystem innerhalb eines Fahrzeugs ermöglicht, indem sie Datenaustausch, Laufzeitumgebung, Schnittstellenmanagement und Fehlerbehandlung koordiniert und dabei eine robuste und flexible Ausführungsumgebung bereitstellt.
 
 ## S
 
 ### SPAL
 
-The Standard Peripheral Abstraction Layer (SPAL) abstracts the peripherals of a microcontroller and provides standardized interfaces to facilitate software development and integration.
-
-### SPI
-
-Serial Peripheral Interface (SPI) is a synchronous serial communication protocol used to communicate between a microcontroller and peripheral devices, such as sensors and displays.
+Die Standard Peripheral Abstraction Layer (SPAL) abstrahiert die Peripheriegeräte eines Mikrocontrollers und stellt standardisierte Schnittstellen zur Verfügung, um die Entwicklung und Integration von Software zu erleichtern.
 
 ### SW
 
-Software (SW) refers to programs and other operational information used by a computer or microcontroller.
+Software (SW) bezeichnet Programme und andere Betriebsinformationen, die von einem Computer verwendet werden.
 
 ### SWC
 
-A Software Component (SWC) in AUTOSAR represents a modular and reusable unit of software that implements specific functions within a vehicle control system and interacts with other components through defined interfaces, thereby enabling a flexible and hardware-independent system architecture.
+Eine Softwarekomponente (SWC) in AUTOSAR repräsentiert eine modulare und wiederverwendbare Einheit von Software, die spezifische Funktionen innerhalb eines Fahrzeugsteuerungssystems implementiert und über definierte Schnittstellen mit anderen Komponenten interagiert, wodurch eine flexible und hardwareunabhängige Systemarchitektur ermöglicht wird.
 
 ## T
 
-### TTCAN
-
-Time-Triggered Controller Area Network (TTCAN) is an extension of the CAN protocol that adds time-triggered communication capabilities to support deterministic data transmission, which is useful for real-time applications in vehicles.
-
 ### TP
 
-The Transport Protocol (TP) is a protocol for controlling data transfer between different communication partners over a network, ensuring proper segmentation, flow control, and reassembly of larger data packets.
+Das Transport Protocol (TP) ist ein Protokoll zur Steuerung des Datentransfers zwischen verschiedenen Kommunikationspartnern über ein Netzwerk.
 
 ## V
 
 ### VFB
 
-The Virtual Function Bus (VFB) in AUTOSAR is a virtual communication concept that enables the interaction and data exchange between distributed software components in a vehicle by providing an abstract communication layer over physical bus systems, supporting loose coupling between components, and providing flexibility and reusability across different hardware platforms.
+Der Virtual Function Bus (VFB) in AUTOSAR ist ein virtuelles Kommunikationskonzept, das die Interaktion und den Datenaustausch zwischen den verteilten Softwarekomponenten in einem Fahrzeug ermöglicht, indem es eine abstrakte Kommunikationsschicht über den physikalischen Bussystemen bereitstellt und eine lose Kopplung zwischen den Komponenten unterstützt, was Flexibilität und Wiederverwendbarkeit über verschiedene Hardwareplattformen hinweg ermöglicht.
 
 ## X
 
 ### XCP
 
-The Universal Measurement and Calibration Protocol (XCP) is a communication protocol used for the measurement and calibration of ECUs in the automotive industry, supporting testing and development of vehicle control systems.
+Das Universal Measurement and Calibration Protocol (XCP) ist ein Kommunikationsprotokoll, das zur Messung und Kalibrierung von Steuergeräten in der Automobilindustrie verwendet wird.
 
 ### XML
 
-The Extensible Markup Language (XML) is a markup language used to represent and store data in a format that is both human-readable and machine-readable, making it ideal for data exchange between different systems. 
+Die Extensible Markup Language (XML) ist eine Auszeichnungssprache, die zur Darstellung und Speicherung von Daten in einer sowohl für Menschen als auch für Maschinen lesbaren Form verwendet wird.
