@@ -134,8 +134,3 @@ After pushing to GitHub, GitHub Actions will run the workflow, build all your `m
 - Go to your repository’s **Settings**.
 - Scroll down to the **GitHub Pages** section and select the source for GitHub Pages, typically the `gh-pages` branch.
 - Your GitHub Pages site should now be live, and you can access each of your books under the respective directories.
-
-### Conclusion
-
-You’ve successfully configured a GitHub Actions workflow to build and deploy multiple `mdbook` projects from different folders to GitHub Pages. You can now manage multiple documentation books in one repository and easily deploy them using GitHub Actions.
-
