@@ -3,7 +3,7 @@
    - Overview Test Methodology
    - Importance of Test Methodology in Development
 
-2. **Agenda for Test Methodology Training 2023**
+2. **Test Methodology**
    - The Testing Process in Development
    - The Three Central Roles in Testing
    - Agile Testing Methodology (Testmethode@agil)

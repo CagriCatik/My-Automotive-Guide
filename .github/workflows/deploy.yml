@@ -1,0 +1,58 @@
+name: Deploy MDBooks
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install mdbook
+      run: cargo install mdbook
+
+    # Build and deploy the first mdbook
+    - name: Build book1
+      run: |
+        cd book1
+        mdbook build
+        cp -r book/* ../public/book1/
+
+    # Build and deploy the second mdbook
+    - name: Build book2
+      run: |
+        cd book2
+        mdbook build
+        cp -r book/* ../public/book2/
+
+    # Build and deploy the third mdbook
+    - name: Build book3
+      run: |
+        cd book3
+        mdbook build
+        cp -r book/* ../public/book3/
+
+    # Build and deploy the fourth mdbook
+    - name: Build book4
+      run: |
+        cd book4
+        mdbook build
+        cp -r book/* ../public/book4/
+
+    # Build and deploy the fifth mdbook
+    - name: Build book5
+      run: |
+        cd book5
+        mdbook build
+        cp -r book/* ../public/book5/
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
